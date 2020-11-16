@@ -1,7 +1,7 @@
 import React from "react";
-import { IDoubt } from "./Doubt";
 import { TouchableOpacity, View, Image, StyleSheet, Text } from "react-native";
 import { colors } from "react-native-elements";
+import { IDoubt } from "./Interface";
 
 export default function Detail(props: any) {
     const { doubt }: { doubt: IDoubt } = props.route.params;

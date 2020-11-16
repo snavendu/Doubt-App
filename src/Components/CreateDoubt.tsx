@@ -4,9 +4,9 @@ import { Camera } from "expo-camera";
 import { Feather as Icons } from "@expo/vector-icons";
 import { colors, Input, Button } from "react-native-elements";
 import { Badges } from "../ui/Bubbly";
-import { IDoubt } from "./Doubt";
 import moment from "moment";
 import shortid from "shortid";
+import { IDoubt } from "./Interface";
 const subjects = [
     "Physics",
     "Chemistry",
