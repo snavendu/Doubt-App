@@ -1,0 +1,46 @@
+{
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web",
+        "eject": "expo eject"
+    },
+    "dependencies": {
+        "@ant-design/react-native": "^4.0.5",
+        "@expo/vector-icons": "^10.0.0",
+        "@react-native-community/async-storage": "^1.12.1",
+        "@react-native-community/cameraroll": "^4.0.1",
+        "@react-native-community/masked-view": "0.1.10",
+        "@react-native-community/netinfo": "5.9.6",
+        "@react-native-community/slider": "^3.0.3",
+        "@react-native-community/viewpager": "^4.1.4",
+        "@react-navigation/drawer": "^5.9.0",
+        "@react-navigation/native": "^5.8.9",
+        "@react-navigation/stack": "^5.12.6",
+        "@types/shortid": "^0.0.29",
+        "@types/styled-components": "^5.1.4",
+        "expo": "~39.0.2",
+        "expo-camera": "~9.0.0",
+        "expo-status-bar": "~1.0.2",
+        "moment": "^2.29.1",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+        "react-native-elements": "^2.1.0",
+        "react-native-gesture-handler": "^1.7.0",
+        "react-native-screens": "^2.10.1",
+        "react-native-web": "~0.13.12",
+        "react-navigation-stack": "react-navigation/stack",
+        "shortid": "^2.2.16"
+    },
+    "devDependencies": {
+        "@babel/core": "~7.9.0",
+        "@types/react": "~16.9.35",
+        "@types/react-dom": "~16.9.8",
+        "@types/react-native": "~0.63.2",
+        "typescript": "~3.9.5"
+    },
+    "private": true
+}
